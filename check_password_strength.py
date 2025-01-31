@@ -8,6 +8,8 @@ print(" - Contains at least one lowercase letter")
 print(" - Contains at least one digit (0-9)")
 print(" - Contains at least one special character from the list [!, @, #, $, %]")
 
+
+# Creating the function
 def check_password_strength(password):
     
     # Creating an empty list to store the missing criteria in the entered Password
@@ -43,6 +45,7 @@ def check_password_strength(password):
     print("Strong: Password meets all criteria.")
     return True
 
-
-password = input("Enter a password to check its strength: ")
-print(check_password_strength(str(password)))
+# Creating main logic, so that function/code should be available for import and reuse in other programs.
+if __name__ == "__main__":
+    password = input("Enter a password to check its strength: ")
+    print(check_password_strength(str(password)))
