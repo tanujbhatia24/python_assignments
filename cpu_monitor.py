@@ -29,4 +29,7 @@ def monitor_cpu_usage():
 
 # Creating main logic, so that function/code should be available for import and reuse in other programs.    
 if __name__ == "__main__":
-     monitor_cpu_usage()
+     try:
+         monitor_cpu_usage()
+     except Exception as e:
+        print(f"An error occurred in the main program: {e}")
