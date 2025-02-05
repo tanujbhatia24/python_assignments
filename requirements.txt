@@ -1,1 +1,9 @@
 pip install psutil
+
+## For DB Error Issue follow below steps 
+## Setup Instructions
+1. pip install python-dotenv
+2. Create a `.env` file in the root directory.
+3. Add the required variables ->( e.g. MONGO_SECRET_KEY = "mongodb+srv://USERNAME:PASSWORD@cluster0.pv2fd.mongodb.net/sample_configuration_db" )
+4. Make sure to put `.env` under `.gitignore` file so that it should remain safe from commit.
+5. Run the application.

@@ -1,10 +1,17 @@
 from flask import Flask, jsonify
 from flask_pymongo import PyMongo
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+#storing my MONGO DB credentials securely. (Read requirements.txt file for the setup.)
+MONGO_SECRET_KEY = os.getenv("MONGO_SECRET_KEY")
 
 app = Flask(__name__)
 
 # MongoDB
-app.config["MONGO_URI"] = "mongodb+srv://tanujbhatia0001:qBsaRlUTqMO2xHxN@cluster0.pv2fd.mongodb.net/sample_configuration_db"
+app.config["MONGO_URI"] = MONGO_SECRET_KEY
 mongo = PyMongo(app)
 
 config_file = "SampleConfigFile.txt"
@@ -69,6 +76,10 @@ def get_config():
 # Creating main logic, so that function/code should be available for import and reuse in other programs. 
 if __name__ == "__main__":
     try:
+        
+        if not MONGO_SECRET_KEY:
+            raise ValueError("Missing DB_PASSWORD. Set it in your environment variables. Read requirements.txt file for the setup.")
+        
         config_data = parse_config(config_file)
         if config_data:
             store_in_db(config_data)
