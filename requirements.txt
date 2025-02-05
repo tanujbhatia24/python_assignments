@@ -1,3 +1,4 @@
+## psutil library in Python can be used to retrieve system information, including CPU usage
 pip install psutil
 
 ## For DB Error Issue follow below steps 
