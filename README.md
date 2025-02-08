@@ -33,3 +33,18 @@ pip install python-dotenv
 2. Add the required variables ->( e.g. MONGO_SECRET_KEY = "mongodb+srv://USERNAME:PASSWORD@cluster0.pv2fd.mongodb.net/COLLECTION_NAME" )
 3. Make sure to put `.env` under `.gitignore` file so that it should remain safe from commit.
 4. Run the application.
+
+## 🚀 Run Scripts
+```bash
+python check_password_strength.py
+python cpu_monitor.py
+python configuration_management.py
+```
+
+📌 Features
+✅ Password Strength Checker
+✅ CPU Usage Monitoring
+✅ System Configuration Management
+
+📫 Contact
+Feel free to reach out if you have any questions or suggestions!
