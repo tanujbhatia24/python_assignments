@@ -15,16 +15,21 @@ Welcome to my **Python Assignments** repository! 🚀 This repository contains v
 ### 📥 Clone the Repository  
 ```bash
 git clone https://github.com/tanujbhatia24/python-assignments.git
-cd python-assignments ```
+cd python-assignments
+```
 
 ## 📦 Install Dependencies
 ### psutil library in Python can be used to retrieve system information, including CPU usage
+```bash
 pip install psutil
+```
 
 ### For DB Error Issue follow below steps 
 ### Setup Instructions
+```bash
 1. pip install python-dotenv
-2. Create a `.env` file in the root directory.
-3. Add the required variables ->( e.g. MONGO_SECRET_KEY = "mongodb+srv://USERNAME:PASSWORD@cluster0.pv2fd.mongodb.net/sample_configuration_db" )
-4. Make sure to put `.env` under `.gitignore` file so that it should remain safe from commit.
-5. Run the application.
+```
+1. Create a `.env` file in the root directory.
+2. Add the required variables ->( e.g. MONGO_SECRET_KEY = "mongodb+srv://USERNAME:PASSWORD@cluster0.pv2fd.mongodb.net/sample_configuration_db" )
+3. Make sure to put `.env` under `.gitignore` file so that it should remain safe from commit.
+4. Run the application.
