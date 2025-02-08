@@ -13,7 +13,8 @@ Welcome to my **Python Assignments** repository! 🚀 This repository contains v
 - **cpu_monitor.py** - Monitors CPU usage and provides real-time updates.  
 - **configuration_management.py** - Automates configuration updates for system settings.  
 - **SampleConfigFile.txt** - Example configuration file used by the configuration_management.py.  
-- **requirements.txt** - Dependencies required for running the scripts.  
+- **requirements.txt** - Dependencies required for running the scripts.
+- **Attempted_Questions.txt** - Attempted Questions list.
 
 
 ## 🔧 Installation & Usage  
