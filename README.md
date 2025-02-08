@@ -42,7 +42,7 @@ pip install python-dotenv
 - Create a `.env` file in the root directory.
 - Add your credentials in the following format:
 ```bash
-MONGO_SECRET_KEY="mongodb+srv://USERNAME:PASSWORD@cluster0.pv2fd.mongodb.net/COLLECTION_NAME"
+MONGO_SECRET_KEY="mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@cluster0.pv2fd.mongodb.net/COLLECTION_NAME"
 ```
 3️⃣ Secure Your Credentials
 - Ensure the **.env** file is listed in **.gitignore** to prevent accidental commits.<br>
