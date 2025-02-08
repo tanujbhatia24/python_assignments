@@ -14,7 +14,7 @@ Welcome to my **Python Assignments** repository! 🚀 This repository contains v
 - **configuration_management.py** - Automates configuration updates for system settings.  
 - **SampleConfigFile.txt** - Example configuration file used by the configuration_management.py.  
 - **requirements.txt** - Dependencies required for running the scripts.
-- **Attempted_Questions.txt** - Attempted Questions list.
+- **attempted_questions.txt** - Attempted Questions list.
 
 
 ## 🔧 Installation & Usage  
