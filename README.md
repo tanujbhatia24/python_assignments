@@ -10,6 +10,11 @@ Welcome to my **Python Assignments** repository! 🚀 This repository contains v
 - **SampleConfigFile.txt** - Example configuration file used by the configuration_management.py.  
 - **requirements.txt** - Dependencies required for running the scripts.  
 
+## 📌 Features
+✅ Password Strength Checker
+✅ CPU Usage Monitoring
+✅ System Configuration Management
+
 ## 🔧 Installation & Usage  
 
 ### 📥 Clone the Repository  
@@ -40,11 +45,6 @@ python check_password_strength.py
 python cpu_monitor.py
 python configuration_management.py
 ```
-
-## 📌 Features
-✅ Password Strength Checker
-✅ CPU Usage Monitoring
-✅ System Configuration Management
 
 ## 🖼️ Output Screenshots
 
