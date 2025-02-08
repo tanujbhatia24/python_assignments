@@ -41,10 +41,10 @@ python cpu_monitor.py
 python configuration_management.py
 ```
 
-📌 Features
+## 📌 Features
 ✅ Password Strength Checker
 ✅ CPU Usage Monitoring
 ✅ System Configuration Management
 
-📫 Contact
+## 📫 Contact
 Feel free to reach out if you have any questions or suggestions!
