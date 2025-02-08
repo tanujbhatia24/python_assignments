@@ -46,5 +46,21 @@ python configuration_management.py
 ✅ CPU Usage Monitoring
 ✅ System Configuration Management
 
+## 🖼️ Output Screenshots
+
+### ✅ Password Strength Checker Output
+<img width="367" alt="image" src="https://github.com/user-attachments/assets/9f6ab3a8-1416-4332-9f8d-8ef80701506d" />
+
+### ✅ CPU Monitor Output
+<img width="311" alt="image" src="https://github.com/user-attachments/assets/d10c162b-17a5-40e0-a95e-323695eef2d3" />
+
+### ✅ Configuration Management Output
+<img width="376" alt="image" src="https://github.com/user-attachments/assets/06083468-abe0-4a86-8b1c-38201f19f546" />
+<br>
+<img width="488" alt="image" src="https://github.com/user-attachments/assets/416f332b-3689-42b5-b6eb-b770cd13fdea" />
+<br>
+<img width="419" alt="image" src="https://github.com/user-attachments/assets/6077697e-ecfa-4fd5-96b4-43c373e165fb" />
+
+
 ## 📫 Contact
 Feel free to reach out if you have any questions or suggestions!
